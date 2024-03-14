@@ -1,0 +1,40 @@
+.button {
+    background-color: #f7086b;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    transition: background .4s;
+}.btnLogin {
+    &:hover {
+        background-color: rgba($color: #f7086b, $alpha: .8)
+     } 
+}.btnRegister {
+    background-color: rgba($color: #f7086b, $alpha: 1);
+    width: 240px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    transition: background-color .4s;
+    &:hover {
+        background-color: rgba($color: #f7086b, $alpha: .4)
+     } 
+}.btnEmail {
+    width: 250px;
+    margin-top: 80px;
+    &:hover {
+        background-color: rgba($color: #f7086b, $alpha: .8)
+     } 
+}.btnRessPass {
+    width: 250px;
+    &:hover {
+        background-color: rgba($color: #f7086b, $alpha: .8)
+     } 
+}
